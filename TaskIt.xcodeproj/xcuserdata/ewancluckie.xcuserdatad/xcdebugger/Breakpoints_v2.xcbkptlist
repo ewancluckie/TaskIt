@@ -6,17 +6,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "TaskIt/TaskDetailViewController.swift"
-            timestampString = "454000576.469369"
+            filePath = "TaskIt/Date.swift"
+            timestampString = "454032617.953707"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "TaskDetailViewController"
-            landmarkType = "3">
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "from(year:month:day:)"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

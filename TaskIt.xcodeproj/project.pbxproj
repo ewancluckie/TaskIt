@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		784873841B0FFBA700B149F1 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784873831B0FFBA700B149F1 /* Date.swift */; };
+		784873861B1002C500B149F1 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784873851B1002C500B149F1 /* AddTaskViewController.swift */; };
 		788D0A781B089C7000AE866F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788D0A771B089C7000AE866F /* AppDelegate.swift */; };
 		788D0A7A1B089C7000AE866F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788D0A791B089C7000AE866F /* ViewController.swift */; };
 		788D0A7D1B089C7000AE866F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 788D0A7B1B089C7000AE866F /* Main.storyboard */; };
@@ -29,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		784873831B0FFBA700B149F1 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		784873851B1002C500B149F1 /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 		788D0A721B089C7000AE866F /* TaskIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		788D0A761B089C7000AE866F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		788D0A771B089C7000AE866F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,7 +90,9 @@
 				788D0A771B089C7000AE866F /* AppDelegate.swift */,
 				788D0A791B089C7000AE866F /* ViewController.swift */,
 				78FECEB01B0F762100FF3674 /* TaskDetailViewController.swift */,
+				784873851B1002C500B149F1 /* AddTaskViewController.swift */,
 				78FECEAE1B0F718400FF3674 /* TaskModel.swift */,
+				784873831B0FFBA700B149F1 /* Date.swift */,
 				78A97DBE1B0CBCE70014E3F7 /* TaskTableViewCell.swift */,
 				788D0A7B1B089C7000AE866F /* Main.storyboard */,
 				788D0A7E1B089C7000AE866F /* Images.xcassets */,
@@ -222,10 +228,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				788D0A7A1B089C7000AE866F /* ViewController.swift in Sources */,
+				784873841B0FFBA700B149F1 /* Date.swift in Sources */,
 				788D0A781B089C7000AE866F /* AppDelegate.swift in Sources */,
 				78FECEAF1B0F718400FF3674 /* TaskModel.swift in Sources */,
 				78A97DBF1B0CBCE70014E3F7 /* TaskTableViewCell.swift in Sources */,
 				78FECEB11B0F762100FF3674 /* TaskDetailViewController.swift in Sources */,
+				784873861B1002C500B149F1 /* AddTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
